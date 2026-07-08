@@ -20,3 +20,9 @@ Tambahkan ketika mulai membuat Notification Service atau event-driven communicat
 📁 Upload File
 
 Belum perlu dependency tambahan. Spring Web sudah mendukung upload file menggunakan MultipartFile.
+
+POST	/api/hotels	Tambah hotel
+GET	/api/hotels	Semua hotel
+GET	/api/hotels/{id}	Detail hotel
+PUT	/api/hotels/{id}	Update hotel
+DELETE	/api/hotels/{id}	Hapus hotel
